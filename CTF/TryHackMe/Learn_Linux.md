@@ -39,7 +39,7 @@ Note: Some commands support the -h flag, meaning you can type <command> -h and g
 
 ## #1	How would you output hello without a newline
  
-Answer format: **** ** *****
+Answer format: **** ** *****<p>
 Answer format: echo -n Hello
 
 # [Task 7] [Section 3: Basic File Operations] - ls 13/02/2020
@@ -53,3 +53,11 @@ Answer format: -a
 ### #2	What flag outputs things in a "long list" format    
 Answer format: -l
 
+# [Task 8] [Section 3: Basic File Operations] - cat 18/02/2020
+cat short for concatenate, does exactly that, it outputs the contents of files to the console. For example, given a file called a.txt which contains the data "hello", cat a.txt would output hello.
+
+Note: cat supports the --help flag meaning that you can see useful flags without going to the man page!
+
+### #1	What flag numbers all output lines?    
+
+Answer format: -A<p>
