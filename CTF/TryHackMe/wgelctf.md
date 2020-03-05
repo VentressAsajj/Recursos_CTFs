@@ -58,8 +58,8 @@ ya tenmeos la flag de root.
  
 ### #1	User flag<p>
 ### Solución:
-`codigo`
-Answer format: ********************************
+
+```Answer format: 05****************************f6```
 
 
 ### #2	Root flag
