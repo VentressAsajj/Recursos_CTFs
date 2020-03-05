@@ -20,6 +20,16 @@ Pasamos a enumerar las páginas:
 gobuster dir -u http://IP/ -w /usr/share/wordlists/dirb/common.txt -t 25 -x php,html,txt -q
 ```
 <p>
+Nos quedamos con el directorio sitemap y volvemos a enumerar.
+<p>
+ 
+ ```
+gobuster dir -u http://IP/sitemap -w /usr/share/wordlists/dirb/common.txt -t 25 -x php,html,txt -q 
+ ```
+
+<p>
+Esta vez nos hemos encontrado con un directorio muy interesante  **/.ssh **
+ 
  
 ### #1	User flag<p>
 ### Solución:
