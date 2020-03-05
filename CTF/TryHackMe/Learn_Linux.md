@@ -95,9 +95,9 @@ Now that you've learned basic file operations, you can solve the first challenge
 Once you're done run the binary and you'll be given the password for the user shiba2!
 
 ### #1	What's the password for shiba2        
- 
-Answer format: ********
-Answer format: pinguftw
+<p> 
+Answer format: ********<p>
+Answer format: pinguftw<p>
 haciendo strings sobre el fichero binario puedes comprobar que hace un cat /etc/shiba/shiba2, el programa comprueba que existe el fichero noot.txt y si es así te hace un cat.
 
 # [Task 12] su 18/02/2020
@@ -107,5 +107,5 @@ Note: Typing su on its own is equivalent to typing su root.
 
 ### #1	How do you specify which shell is used when you login?    
  
-Answer format: **
+Answer format: -s
 
