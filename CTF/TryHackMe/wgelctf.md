@@ -28,7 +28,12 @@ gobuster dir -u http://IP/sitemap -w /usr/share/wordlists/dirb/common.txt -t 25 
  ```
 
 <p>
-Esta vez nos hemos encontrado con un directorio muy interesante  **/.ssh **
+Esta vez nos hemos encontrado con un directorio muy interesante  **/.ssh** Cuando nos conectamos a esa página vemos el fichero con la clave privada de ssh. Dado que sólo tenemos un usuario, probamos a conectarnos vía ssh al server. Antes de nada hay que cambiar los permisos al fichero.
+ ```
+ $ chmod 600 id_rsa
+ $ ssh -i ./id_rsa jessie@ip
+ ```
+ 
  
  
 ### #1	User flag<p>
