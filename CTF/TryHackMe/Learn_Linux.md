@@ -60,4 +60,52 @@ Note: cat supports the --help flag meaning that you can see useful flags without
 
 ### #1	What flag numbers all output lines?    
 
-Answer format: -A<p>
+Answer format: -n<p>
+ 
+# [Task 9] [Section 3: Basic File Operations] - touch 18/02/2020
+touch is a pretty simple command, it creates files. Given the command touch b.txt, b.txt would be created.
+### #1	Read the above!
+ 
+No answer needed
+
+# [Task 10] [Section 3: Basic File Operations] - Running A Binary 18/02/2020
+Occasionally there will be times when you want to run downloaded or user created programs. This is done by providing the full path to the binary, for example say you download a binary that outputs not, providing the full path to that binary will execute it. 
+
+This seems like a good time to mention Relative Paths! Every time you intend on running the binary, you don't need to provide a full path, you can use Relative Paths.
+
+Relative Paths:
+
+The chart below will assume the current path is /tmp/aa 
+
+### #1	How would you run a binary called hello using the directory shortcut . ?
+
+Answer format: ./hello
+
+### #2	How would you run a binary called hello in your home directory using the shortcut ~ ?
+
+Answer format: ~/Hello
+
+### #3	How would you run a binary called hello in the previous directory using the shortcut .. ?
+
+Answer format: ../Hello
+
+# [Task 11] Binary - Shiba1 18/02/2020
+Now that you've learned basic file operations, you can solve the first challenge! This challenge is pretty simple, create a file called noot.txt.
+
+Once you're done run the binary and you'll be given the password for the user shiba2!
+
+### #1	What's the password for shiba2        
+ 
+Answer format: ********
+Answer format: pinguftw
+haciendo strings sobre el fichero binario puedes comprobar que hace un cat /etc/shiba/shiba2, el programa comprueba que existe el fichero noot.txt y si es así te hace un cat.
+
+# [Task 12] su 18/02/2020
+Now that we have our next user password, it seems like a good time to cover su. su is a command that allows you to change the user, without logging out and logging back in again. For example if you wanted to switch to shiba2 while you're the user shiba1, you would type su shiba2 . You would then be prompted for a password and if you entered shiba2's password you would then become shiba2
+
+Note: Typing su on its own is equivalent to typing su root. 
+
+### #1	How do you specify which shell is used when you login?    
+ 
+Answer format: **
+
