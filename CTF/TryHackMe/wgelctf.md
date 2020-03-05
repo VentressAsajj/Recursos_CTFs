@@ -85,3 +85,4 @@ ya tenmeos la flag de root.
 
 ```Answer format: b1****************************3d```
 
+Este tipo de cosas tan simples te ayudan a entrar en un sin fin de sitios. Pasa no tengas miedo, hasta la cocina. Enjoy.
