@@ -9,6 +9,6 @@ Después de que casi pierdo toda la info de mi ordenador he decidido subir los r
 TryHackMe es una plataforma de retos muy buena.
 
 ```
-Se cuirosa. No dejes para mañana lo que puedas reventar hoy.
+Se curiosa. No dejes para mañana lo que puedas reventar hoy.
 #TimeToPlay #HackThePlanet #Enjoy
 ```
