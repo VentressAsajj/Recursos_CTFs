@@ -40,3 +40,16 @@ Note: Some commands support the -h flag, meaning you can type <command> -h and g
 ## #1	How would you output hello without a newline
  
 Answer format: **** ** *****
+Answer format: echo -n Hello
+
+# [Task 7] [Section 3: Basic File Operations] - ls 13/02/2020
+ls is a command that lists information about every file/directory in the directory. Just running the ls command outputs the name of every file in the directory.
+
+As with other commands ls has many flags that can manipulate the output.  For example ls -a shows all files/directories including ones that start with .
+
+### #1	What flag outputs all entries
+ 
+Answer format: -a
+### #2	What flag outputs things in a "long list" format    
+Answer format: -l
+
