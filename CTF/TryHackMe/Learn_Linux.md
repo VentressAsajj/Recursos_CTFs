@@ -109,3 +109,4 @@ Note: Typing su on its own is equivalent to typing su root.
  
 Answer format: -s
 
+Dejo de escribir porque es tan sencillo que pierdo más el tiempo en hacer eśto que en terminar la máquina.
