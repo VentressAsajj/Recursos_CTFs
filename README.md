@@ -9,7 +9,7 @@ Después de que casi pierdo toda la info de mi ordenador he decidido subir los r
 TryHackMe es una plataforma de retos muy buena. La he elegido porque tiene retos muy básicos para la gente que se está iniciando. <p>
 Tengo un reto, un proyecto en mente, quiero crear una competición de niñas y niños en este tipo de retos, tal y como lo hacen en en [Cert](https://www.ncsc.gov.uk/). Así que estoy buscando cosas básicas para que empicen a jugar. En este site de CTF pueden aprender.<p>
 Otro sitio donde se empieza desde lo más básico es [root-me](https://www.root-me.org/).<p>
-Estos sitios me ayudan, no solo a ver si las enanas puede hacerlo sino que además me sirven de base para plantearles nuevos retos.
+Estos sitios me ayudan en todos los sentidos, por un lado puedo decir a los enanos y enanas que empiecen nuevos retos hay, les haríamos juntos, y por otro sirve de base para plantearles nuevos retos.
 
 
 ```
