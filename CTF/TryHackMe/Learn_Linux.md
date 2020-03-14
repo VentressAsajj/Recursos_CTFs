@@ -110,3 +110,6 @@ Note: Typing su on its own is equivalent to typing su root.
 Answer format: -s
 
 Dejo de escribir porque es tan sencillo que pierdo más el tiempo en hacer eśto que en terminar la máquina.
+
+Última tarea, es la única complicada.
+Hay que hacer un find, buscando ficheros de usuarios que tenemos acceso, shiba[1-4]. Te tocara usar sudo -l :D #Enjoy
