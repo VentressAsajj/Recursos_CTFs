@@ -1,0 +1,2 @@
+# script-cli crackea una imagen. Supongo que algun dia sera shell, por ahora paso
+cat ../rockyou.txt | xargs -n1 sh -c 'steghide extract -sf file.jpeg -p $1 -xf output.txt > /dev/null 2>&1' sh
