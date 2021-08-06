@@ -13,7 +13,7 @@ B -> z12,d2
 C -> z12,d3 ...
 
 Por ejemplo: La primera columna hay perforación en la zona 12 y el la zona de digito 6 ( z12,d6 ) por lo que será una F
-(https://github.com/VentressAsajj/Pupurri/blob/master/CTF/ringzer0ctf/172/Captura%20de%20pantalla%20-2021-08-06%2001-49-20.png)
+![](https://github.com/VentressAsajj/Pupurri/blob/master/CTF/ringzer0ctf/172/Captura%20de%20pantalla%20-2021-08-06%2001-49-20.png)
 ## Código
 ![](https://github.com/VentressAsajj/Pupurri/blob/master/CTF/ringzer0ctf/172/Captura%20de%20pantalla%20-2021-08-06%2002-05-37.png)
 
