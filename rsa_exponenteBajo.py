@@ -1,7 +1,7 @@
 '''
 Solucion para ctf cuyo exponente es muy bajo, se buscan ataques de exponentes bajos (exponent attack)
 RSA C = M^e (mod n) pero cuando n, modulus, es mucho mas grande que exponente y el mensaje cifrado no es muy largo (M pequeño)
-entonces M^e(mod n) = M^e entonces M se encuentra calculando la raiz n-esimoa de C.
+entonces M^e(mod n) = M^e entonces M se encuentra calculando la raiz n-esima de C.
 '''
 import gmpy2
 
